@@ -58,3 +58,44 @@ Ela permite:
 - Juntar várias imagens médicas  
 - Formar uma visualização interativa  
 - Ajudar profissionais a analisarem melhor os dados  
+
+##   Testes
+
+##  Processamento de Imagens
+
+O processamento de imagens trabalha com imagens reais já existentes, geralmente capturadas por câmeras, buscando melhorar a imagem ou extrair informações relevantes.
+
+ Aplicação testada:  
+Foi utilizado o algoritmo de Canny, com a biblioteca OpenCV, para detectar bordas em uma imagem.  
+A imagem de entrada foi carregada com sucesso, o algoritmo foi executado e as bordas dos objetos foram destacadas corretamente.
+
+ Conclusão:  
+Este exemplo demonstra como o processamento de imagens é capaz de realçar informações importantes, como contornos, sem precisar interpretar o conteúdo da imagem.
+
+---
+
+##  Visão Computacional
+
+A visão computacional vai além do processamento: ela tenta entender o que está na imagem, reconhecendo objetos, padrões ou comportamentos.
+
+ Aplicação testada:  
+Foi usado o pacote `face_recognition` em Python para realizar reconhecimento facial em tempo real via webcam.  
+Durante a execução, os rostos foram detectados corretamente e marcados com retângulos.
+
+ Conclusão:  
+Esse teste mostra como a visão computacional é capaz de interpretar visualmente o ambiente, permitindo funcionalidades como autenticação facial e monitoramento.
+
+---
+
+##  Visualização Computacional
+
+A visualização computacional transforma dados complexos ou volumétricos em imagens visuais que facilitam a análise.
+
+ Aplicação testada:  
+Foi utilizada a biblioteca VTK para exibir uma visualização médica em 3D, a partir de dados simulados de tomografia.  
+A renderização foi feita com sucesso e permitiu interação (zoom, rotação), simulando uma análise clínica real.
+
+ Conclusão:  
+Este exemplo evidencia como a visualização computacional ajuda a interpretar dados técnicos, facilitando o entendimento por profissionais, como médicos ou cientistas.
+
+---
