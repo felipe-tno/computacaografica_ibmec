@@ -2,28 +2,28 @@
 
 ## Síntese de Imagens (Computação Gráfica)
 
-A **síntese de imagens**, ou computação gráfica, é a área que cuida da **criação de imagens digitais** usando objetos 3D e luzes feitas por software. É muito usada em jogos e animações.
+A síntese de imagens, ou computação gráfica, é a área que cuida da criação de imagens digitais usando objetos 3D e luzes feitas por software. É muito usada em jogos e animações.
 
-Um exemplo é o **Blender**, onde, usando um **script em Python**, foi criada uma cena simples com:
+Um exemplo é o Blender, onde, usando um script em Python, foi criada uma cena simples com:
 
 - Uma esfera  
 - Uma luz  
 - Uma câmera  
 
-Em seguida, o Blender realiza a **renderização** dessa cena, gerando uma imagem totalmente produzida pelo software.  
-Isso mostra como é possível **criar imagens do zero**, sem a necessidade de fotos ou capturas do mundo real.
+Em seguida, o Blender realiza a renderização dessa cena, gerando uma imagem totalmente produzida pelo software.  
+Isso mostra como é possível criar imagens do zero, sem a necessidade de fotos ou capturas do mundo real.
 
 ---
 
 ## Processamento de Imagens
 
-O **processamento de imagens** trabalha com **imagens que já existem**, normalmente tiradas por câmeras, e tenta:
+O processamento de imagens trabalha com imagens que já existem, normalmente tiradas por câmeras, e tenta:
 
 - Melhorar essas imagens  
 - Obter alguma informação útil delas  
 
-Um teste simples é usar o **algoritmo de Canny** com a biblioteca **OpenCV** em Python.  
-Ele pega uma imagem e **destaca as bordas** dos objetos nela. Isso pode ajudar, por exemplo, quando for preciso:
+Um teste simples é usar o algoritmo de Canny com a biblioteca OpenCV em Python.  
+Ele pega uma imagem e destaca as bordas dos objetos nela. Isso pode ajudar, por exemplo, quando for preciso:
 
 - Separar partes da imagem  
 - Preparar a imagem para outra tarefa  
@@ -32,16 +32,16 @@ Ele pega uma imagem e **destaca as bordas** dos objetos nela. Isso pode ajudar, 
 
 ## Visão Computacional
 
-A **visão computacional** tenta **entender o que tem nas imagens**.
+A visão computacional tenta entender o que tem nas imagens.
 
-Um exemplo de aplicação é o **reconhecimento facial** com a biblioteca `face_recognition`.  
+Um exemplo de aplicação é o reconhecimento facial com a biblioteca `face_recognition`.  
 O código:
 
 - Abre a webcam  
 - Detecta rostos em tempo real  
 - Desenha retângulos em volta deles  
 
-Isso mostra como o computador consegue **reconhecer rostos sozinho**, útil em situações como:
+Isso mostra como o computador consegue reconhecer rostos sozinho, útil em situações como:
 
 - Segurança  
 - Autenticação  
@@ -50,9 +50,9 @@ Isso mostra como o computador consegue **reconhecer rostos sozinho**, útil em s
 
 ## Visualização Computacional
 
-A **visualização computacional** transforma **dados complexos em imagens** para facilitar a interpretação da informação.
+A visualização computacional transforma dados complexos em imagens para facilitar a interpretação da informação.
 
-Um exemplo é o uso da biblioteca **VTK**, que pode mostrar **exames médicos em 3D**, como tomografias.  
+Um exemplo é o uso da biblioteca VTK, que pode mostrar exames médicos em 3D, como tomografias.  
 Ela permite:
 
 - Juntar várias imagens médicas  
