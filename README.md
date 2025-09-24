@@ -14,3 +14,5 @@ Repositório dedicado a armazenar Exercícios e Atividades da disciplina de Comp
       AC 03 - 14/10/2025
       
       AC 04 - 28/10/2025
+
+Link Notebooks : [Google Collab](https://colab.research.google.com)
