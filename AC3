@@ -28,3 +28,8 @@ Exemplo: em um monitor, o amarelo é formado pela combinação da luz vermelha e
 A subtrativa trabalha com pigmentos (como em impressoras).
 Exemplo: em uma impressora, o amarelo aparece pela subtração de partes do espectro de luz refletido sobre o papel — ou seja, pela mistura de tintas.
 
+6.2
+O sensoriamento remoto utiliza imagens de satélite para monitorar a superfície terrestre e extrair informações sobre vegetação, uso do solo, corpos d’água e mudanças ambientais.
+Para isso, diferentes espaços de cores são aplicados às bandas espectrais captadas pelos sensores.
+Dois dos mais comuns são o RGB (True Color), que combina as bandas vermelha, verde e azul para reproduzir uma imagem próxima da visão humana,e o False Color (NIR-Red-Green), 
+que usa o infravermelho próximo para destacar vegetação e variações no solo. Essas composições permitem visualizar fenômenos invisíveis a olho nu, tornando o sensoriamento remoto uma ferramenta essencial em agricultura, meio ambiente e planejamento urbano.
